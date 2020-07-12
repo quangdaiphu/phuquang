@@ -1,0 +1,285 @@
+		body {
+			margin-top: 0px;
+			margin-bottom: 0px;
+			background-image: url(hinhanh/nen.jpg) ;
+			background-attachment: fixed;
+			font-family: times new roman
+			
+		}
+		header{
+			background:#000000 no-repeat center center/cover;
+			margin: 0;
+			padding: 0;
+		}
+		.row{
+			display: flex;
+			justify-content: space-around;
+
+
+		}
+		.btn-header button{
+		
+			
+		width: 150px;
+		height: 40px;
+		font-size: 25px;
+		font-weight: bold;
+		color: red;
+		border-radius: 10px 10px 10px 10px;
+		margin-top: 15px;
+
+
+		}
+		.btn-header button:hover{
+		background:#FF9966;
+		color: white;
+
+		}
+
+		}
+		
+
+		.btn-header{
+			margin: 10px 0;
+			margin-top: 25px;
+
+		}
+		.menu{
+			margin-top: :10px;
+
+		}
+		.menu h3{
+			font-size: 50px;
+			color: white;
+			font-weight: 500;
+			text-shadow: 1px 0 2px red;
+			padding-bottom: 5px
+			margin-top:-20px;
+
+		}
+		h3{
+			margin-top: -20px;
+		}
+		
+
+		
+		.row-nav{
+			display: flex;
+			justify-content: center;
+			width: 1350px;
+
+		}
+		.row-nav a{
+			font-family: times new roman;
+			color: white;
+			font-size: 18px;
+			letter-spacing: 1.2px;
+			text-decoration: none;	
+			padding: 0.4rem 1.6rem;
+			margin-top: -10px;
+
+		
+		
+
+		}
+
+		.row-nav li:hover{
+			background: green;
+		}
+		.row-nav a:hover
+		{
+			
+
+		}
+		.nav-bg{
+			margin: 0;
+			padding: 0;
+			background: grey;
+			width:100%;
+			height: 50px;
+			margin-top: -20px;
+
+		}
+
+		}
+		a{text-decoration: none;
+			list-style: none;
+
+
+		}
+
+		.row-nav> ul> li{
+			
+			list-style: none;
+			padding: 5px 5px;
+			position: relative;
+			float: left;
+		}
+		.row-nav ul li a{
+			font-size: 20px;
+
+		}
+		.row-nav >ul >li >ul{
+			display: none;
+			position: absolute;
+		    background:grey;
+		    top:40px; }
+		.row-nav ul li ul li{
+			list-style: none;
+			width: 200px;
+			height: 30px;
+
+		}
+
+		.row-nav ul li ul li a{
+			height: 30px;
+			font-size: 22px;
+			margin-left: -25px;
+		}    
+		.row-nav> ul> li:hover ul{
+			display: block;}
+		.text{
+			width: 170px;
+			height: 20px;
+		}
+		.x{
+			width: 70px;
+			height: 30px;
+			border-radius: 5px;
+			font-size: 18px;
+		}
+		.x:hover{
+			background: green;
+			color: white;
+		}
+		
+		img{
+			margin-top: 2px;
+		}
+
+		#center{
+
+			padding-top: 5px;
+			background-color:#000;
+		}
+		#main{
+			float: left;
+		  width: 19%;
+		}
+		h2 {
+		  font: 18px, sans-serif; 
+		  color: #695F4C;
+		  padding-bottom: -10px;
+		}
+		#main h2 {
+		  color: #fff;
+		  padding: 4px 0 5px 15px;
+		  background: #847A67;
+		}
+		#main li {
+
+
+		  height: 40px;
+		  background: #D4CAB6; 
+		  border-top: 2px solid #F4EFDF;
+		  list-style: none;
+		  font-size: 12px;
+		  padding: 7px 0 8px 10px;
+		  margin-left: -35px;
+
+
+		}
+		#main a {
+		  text-decoration: none;
+		  color: red;
+		  font-size: 26px;
+		  font-weight: center;
+		  margin-top: 15px;
+		}
+		#main a:hover {
+		  
+		color: white;
+		font-size: 30px;
+		}
+		  
+		#main li:hover{
+			background: green;
+		}
+
+		#phai{
+			background: #ffffff;
+			width:81%;
+			float:left;
+
+		}
+		h1{
+			font-size: 45px;
+			color: green;
+		}
+		.productname{
+			width: 200px;
+			font-weight:bold;	
+			color: red; 
+			text-decoration: none;
+		}
+
+		#phai th li{
+			margin-right: 20px;
+			margin-top: -10px;
+			list-style: none;
+
+
+		}
+		#phai li p{font-size: 18px;
+			color: black;
+			font-weight: bold;
+
+			}
+
+		 a{
+			font-size: 18px;
+			color: red;
+		}
+
+		#phai li img {
+			margin-top: 30px;
+
+		}
+
+		#phai  li img:hover{
+			width: 210px;
+			height: 230px;
+			margin-top: -30px;
+		}
+
+		.footer{width:100%;
+			
+		}
+		.footer1{
+			background: black;
+			display: flex;
+			justify-content: space-around;
+			width: 100%;
+			
+
+		}
+		.footer2 h1{
+			color: white;
+			font-size: 20px;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			
+		}
+		.footer2 span{
+			color: white;
+			font-size: 20px;
+			
+		}
+		.footer2 h5{
+			color: white;
+			font-size: 25px;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			margin-top: -20px;
+			
+		}	
